@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 2 Test Review Flashcards</title>
+<style>
+body { font-family: Arial, sans-serif; background: #f8fafc; color: #111827; text-align: center; }
+.container { max-width: 800px; margin: 30px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+button { margin: 10px; padding: 10px 20px; border: none; border-radius: 6px; background-color: #2563eb; color: white; cursor: pointer; }
+button:hover { background-color: #1e40af; }
+.card { border: 2px solid #e5e7eb; border-radius: 10px; padding: 20px; min-height: 150px; margin-top: 20px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; background-color: #f9fafb; transition: 0.5s; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Unit 2 Test Review: Skeletal, Joints & Muscular Systems</h1>
+<div id="card" class="card front"></div>
+<button onclick="prevCard()">Previous</button>
+<button onclick="flipCard()">Flip</button>
+<button onclick="nextCard()">Next</button>
+<button onclick="shuffleCards()">Shuffle</button>
+<p id="counter"></p>
+</div>
+<script>
+const cards = [
+  {front:"Name the five regions of the vertebral column.", back:"Cervical, Thoracic, Lumbar, Sacral, Coccygeal."},
+  {front:"What is a long bone? Give an example.", back:"A bone longer than it is wide; example: femur."},
+  {front:"Differentiate true, false, and floating ribs.", back:"True attach directly to sternum; false attach via shared cartilage; floating do not attach to sternum."},
+  {front:"Name two major functions of the skeletal system.", back:"Support and protection (also movement, mineral storage, blood cell formation)."},
+  {front:"Which skeleton contains the skull and vertebrae?", back:"Axial skeleton."},
+  {front:"Which skeleton contains the limbs and pelvic girdle?", back:"Appendicular skeleton."},
+  {front:"How are
